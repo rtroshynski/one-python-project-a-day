@@ -1,3 +1,4 @@
 seasons = ['spring','summer','fall','winter']
 for season in seasons:
-  print(seasons.title() + '- 2019')
+  print(season.title() + '- 2019')
+# eof
