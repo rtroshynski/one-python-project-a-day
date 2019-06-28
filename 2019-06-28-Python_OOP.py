@@ -1,5 +1,5 @@
 # Python 3.7
-# 
+# https://www.programiz.com/python-programming/inheritance
 class polygon:
     def __init__(self,no_of_sides,*sides):
         self.no_of_sides=no_of_sides
