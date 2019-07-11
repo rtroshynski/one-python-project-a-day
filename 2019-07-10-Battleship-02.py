@@ -15,7 +15,12 @@ ships = {"Aircraft Carrier":5,
 #print(ships.keys())
 #print(ships.values())
 #print(ships.items())
-for k,v in ships.items():
+#for k,v in ships.items():
+#    print(k, v)
+
+# sorted
+import collections
+for k, v in collections.OrderedDict(sorted(ships.items())).items():
     print(k, v)
 
 #initializing board
