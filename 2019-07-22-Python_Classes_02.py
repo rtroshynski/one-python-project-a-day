@@ -178,4 +178,31 @@ cat2 = Cat("orange")
 # ... The ids may vary between runs.
 print(id(cat1))
 print(id(cat2))
+# 
+# Python program that uses classmethod
+class Box:
+    @classmethod
+    def example(cls, code):
+        # This method can be used as an instance or static method.
+        print("Method called:", code)
+
+# Use classmethod as a static method.
+Box.example("cat")
+
+# Use classmethod as an instance method.
+b = Box()
+b.example("dog")
+# 
+# Python program that uses staticmethod
+class Box:
+    @staticmethod
+    def Message(a):
+        print("Box Message", a)
+
+# Call static method with type.
+Box.Message(1)
+
+# Call static method with instance.
+b = Box()
+b.Message(2)
 # eof 
