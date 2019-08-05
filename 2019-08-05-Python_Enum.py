@@ -262,3 +262,4 @@ print('Value:', BugStatus.in_progress.value)
 print('Custom attribute:', BugStatus.in_progress.transitions)
 print('Using attribute:',
       BugStatus.in_progress.can_transition(BugStatus.new))
+# eof
