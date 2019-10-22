@@ -16,7 +16,7 @@ ships = {
 
 orientation = {
 	"horizontal":0,
-	"vertial":1,
+	"vertical":1,
 	"diagonal":2
 }
 
