@@ -5,6 +5,7 @@ but not a working playable version yet
 # Python 3.6.8
 import random
 import collections
+from pprint import pprint
 
 ships = {
     "Aircraft Carrier":5,
@@ -50,8 +51,9 @@ def init_board(board):
     board.append(["O"] * 10) 
 
 def print_board(board):
-    for row in board:
-        print (" ".join(row))
+#    for row in board:
+#        print (" ".join(row))
+	pprint(board)
 
 def get_random(low,high):
 	return random.randint(low,high)
